@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 We currently working on Your Mom (Just Kidding, Chill Bro). 
+- 🔭 We currently working on Your Mo... (Just Kidding, Chill Bro). 
 - 🌱 I’m currently learning How Karlson is still not the most wishlist game on steam.
 - 👯 I’m looking to collaborate whit all games.
 - 🤔 I’m looking for help with Programing because we stupid andwe have only fu'+**ing artist. 
