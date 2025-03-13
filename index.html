@@ -3,29 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engineering Softcodes™</title>
-    <style>
-
-<!-- Link to Google Fonts for Orbitron -->
+    <title>Engineering Softcodes ™</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-
-        
+    <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Orbitron'
-            color: white;
+            font-family: 'Orbitron', sans-serif;
         }
-        
+
         body {
             background-color: #f7941d;
+            color: white;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
         }
-        
+
         header {
             width: 100%;
             background: black;
@@ -33,7 +29,7 @@
             font-size: 24px;
             font-weight: bold;
         }
-        
+
         nav {
             display: flex;
             justify-content: center;
@@ -42,17 +38,18 @@
             background: black;
             width: 100%;
         }
-        
+
         nav a {
+            color: white;
             text-decoration: none;
             font-size: 18px;
             transition: 0.3s;
         }
-        
+
         nav a:hover {
-            color: yellow;
+            color: #f39c12;
         }
-        
+
         .hero {
             width: 90%;
             max-width: 1200px;
@@ -61,7 +58,7 @@
             background: black;
             border-radius: 15px;
         }
-        
+
         .games {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -70,25 +67,31 @@
             width: 90%;
             max-width: 1200px;
         }
-        
+
         .game-card {
             background: black;
             padding: 20px;
             border-radius: 10px;
         }
-        
+
         footer {
             background: black;
             padding: 20px;
             width: 100%;
+            text-align: center;
             margin-top: 40px;
         }
-        
-        .socials, .partners {
+
+        .socials, .sponsors {
             background: black;
+            color: white;
             padding: 20px;
-            width: 100%;
             margin-top: 10px;
+            width: 100%;
+        }
+
+        .socials h3, .sponsors h3 {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -114,16 +117,16 @@
             <p>A mind-bending psychological horror experience.</p>
         </div>
     </section>
+    <div class="socials">
+        <h3>Follow Us</h3>
+        <p>Twitter | YouTube | Discord</p>
+    </div>
+    <div class="sponsors">
+        <h3>Our Sponsors & Partners</h3>
+        <p>Partner 1 | Partner 2 | Partner 3</p>
+    </div>
     <footer>
         &copy; 2025 Engineering Softcodes™ - All Rights Reserved
     </footer>
-    <div class="socials">
-        <h2>Follow Us</h2>
-        <p>Twitter | YouTube | Discord</p>
-    </div>
-    <div class="partners">
-        <h2>Our Sponsors & Partners</h2>
-        <p>Partner 1 | Partner 2 | Partner 3</p>
-    </div>
 </body>
 </html>
