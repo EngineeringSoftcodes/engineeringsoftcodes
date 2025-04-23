@@ -1,203 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engineering Softcodes ™</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Orbitron', sans-serif;
-        }
-        body {
-            background-color: #f7941d;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-
-        header {
-            width: 100%;
-            background: black;
-            padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 15px;
-            background: black;
-            width: 100%;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: #f39c12;
-        }
-
-        .hero {
-            width: 90%;
-            max-width: 1200px;
-            margin-top: 20px;
-            padding: 40px;
-            background: black;
-            border-radius: 15px;
-        }
-
-        .games {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin: 40px 0;
-            width: 90%;
-            max-width: 1200px;
-        }
-
-        .game-card {
-            background: black;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .game-card img {
-            width: 200px; /* Customize width */
-            height: 100px; /* Customize height */
-            object-fit: cover;
-            border-radius: 10px;
-        }
-
-        .partners {
-            margin: 40px 0;
-            padding: 20px;
-            background: black;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 800px;
-        }
-
-        .partner-list {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 10px;
-        }
-
-        .partner-list a img {
-            width: 45px; /* Customize width */
-            height: 45px; /* Customize height */
-            border-radius: 10px;
-            transition: 0.3s;
-        }
-
-        .partner-list a img:hover {
-            opacity: 0.8;
-        }
-
-        .social-icons img {
-            width: 40px; /* Customize width */
-            height: 40px; /* Customize height */
-            margin: 5px;
-        }
-
-        footer {
-            background: black;
-            padding: 20px;
-            width: 100%;
-            text-align: center;
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Engineering Softcodes ™</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+    body {
+      background-color: #f7941d;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    header, nav, footer {
+      background: black;
+      width: 100%;
+    }
+    header {
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #f39c12;
+    }
+    .hero {
+      width: 90%;
+      max-width: 1200px;
+      margin-top: 20px;
+      padding: 40px;
+      background: black;
+      border-radius: 15px;
+    }
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 40px 0;
+      width: 90%;
+      max-width: 1200px;
+    }
+    .game-card {
+      background: black;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .game-card img {
+      width: 200px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .partners {
+      margin: 40px 0;
+      padding: 20px;
+      background: black;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 800px;
+    }
+    .partner-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    .partner-list a img {
+      width: 45px;
+      height: 45px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .partner-list a img:hover {
+      opacity: 0.8;
+    }
+    .social-icons img {
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <header>Engineering Softcodes ™</header>
-    <nav>
-        <a href="index.html">Main Page</a>
-        <a href="news.html">News</a>
-        <a href="games.html">Games</a>
-        <a href="about.html">About</a>
-    </nav>
-    <nav>
-        <a href="contact.html">Contact</a>
-        <a href="team.html">Team</a>
-        <a href="publishing.html">Publishing</a>
-        <a href="support.html">Support</a>
-    </nav>
-    
-    <div class="hero">
-        <h1>Tools</h1>
+  <header>Engineering Softcodes ™</header>
+
+  <nav>
+    <a href="index.html">Main Page</a>
+    <a href="news.html">News</a>
+    <a href="games.html">Games</a>
+    <a href="about.html">About</a>
+  </nav>
+  <nav>
+    <a href="contact.html">Contact</a>
+    <a href="team.html">Team</a>
+  </nav>
+  <nav>
+    <a href="publishing.html">Publishing</a>
+    <a href="support.html">Support</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Tools</h1>
+  </div>
+
+  <section class="games">
+    <div class="game-card">
+      <h2>Our Own Tools & Softwares</h2>
+      <a href="https://dynamicrise.es" target="_blank">
+        <img src="https://ucarecdn.com/0a6a7026-f760-4224-ad22-5df797aef2c0/-/preview/675x370/" alt="Dynamic Rise Game Engine"/>
+      </a>
     </div>
-    
-    <section class="games">
-        <div class="game-card">
-            <h2>Our Own Tools & Softwares</h2>
-            <a href="https://dynamicrise.es" target="_blank">
-            <img src="https://ucarecdn.com/0a6a7026-f760-4224-ad22-5df797aef2c0/-/preview/675x370/" alt="Dynaminc Rise Game Engine" width="30" height="30">
-        </div>
 
-        <div class="game-card">
-            <div>
-                <h2>Other Tools & Softwares We Use</h2>
-                  <div>
-                      <a href="https://www.jotform.com/en/" target="_blank">
-                      <img src="https://ucarecdn.com/4080b427-8d27-4732-bb6c-794080940ee0/-/preview/666x375/" alt="Jetform" width="40" height="40">
-                  </div>
-                  <div>
-                      <a href="https://godotengine.org/" target="_blank">
-                      <img src="https://ucarecdn.com/ebc4805e-d078-4b27-a3f5-11c257491f64/-/preview/786x317/" alt="Godot" width="40" height="40">
-                  </div>
-                  <div>
-                      <a href="https://www.codeblocks.org/" target="_blank">
-                      <img src="https://ucarecdn.com/8fda0945-fb85-4d39-8afa-d4f7bc920ea1/-/preview/400x300/" alt="CodeBlocks" width="40" height="40">
-                  </div>
-                  <div>
-                      <a href="https://www.codeblocks.org/" target="_blank">
-                      <img src="https://ucarecdn.com/0f6f2989-09fe-445d-ab5c-df463fa72429/-/preview/500x500/" alt="Blender" width="40" height="40">
-                  </div>
-                  <div>
-                      <a href="https://prisma3d.net/" target="_blank">
-                      <img src="https://ucarecdn.com/ad762777-dbb0-40e0-bcf6-422acca8ea64/-/preview/1000x277/" alt="Prisma3D" width="40" height="40">
-                  </div>  
-                  <div>
-                      <a href="https://unity.com/" target="_blank">
-                      <img src="https://ucarecdn.com/4c66b80f-2853-45cc-b1a5-7fda4736b2dc/-/preview/690x362/" alt="Unity®" width="40" height="40">
-                  </div>
-            </div>
-        </div>
-    </section>
+    <div class="game-card">
+      <h2>Other Tools & Softwares We Use</h2>
 
-    <footer>
+      <a href="https://www.jotform.com/en/" target="_blank">
+        <img src="https://ucarecdn.com/4080b427-8d27-4732-bb6c-794080940ee0/-/preview/666x375/" alt="Jotform"/>
+      </a>
+      <a href="https://godotengine.org/" target="_blank">
+        <img src="https://ucarecdn.com/ebc4805e-d078-4b27-a3f5-11c257491f64/-/preview/786x317/" alt="Godot"/>
+      </a>
+      <a href="https://www.codeblocks.org/" target="_blank">
+        <img src="https://ucarecdn.com/8fda0945-fb85-4d39-8afa-d4f7bc920ea1/-/preview/400x300/" alt="CodeBlocks"/>
+      </a>
+      <a href="https://www.blender.org/" target="_blank">
+        <img src="https://ucarecdn.com/0f6f2989-09fe-445d-ab5c-df463fa72429/-/preview/500x500/" alt="Blender"/>
+      </a>
+      <a href="https://prisma3d.net/" target="_blank">
+        <img src="https://ucarecdn.com/ad762777-dbb0-40e0-bcf6-422acca8ea64/-/preview/1000x277/" alt="Prisma3D"/>
+      </a>
+      <a href="https://unity.com/" target="_blank">
+        <img src="https://ucarecdn.com/4c66b80f-2853-45cc-b1a5-7fda4736b2dc/-/preview/690x362/" alt="Unity®"/>
+      </a>
+    </div>
+  </section>
+
+  <footer>
     &copy; 2024 - 2025 Engineering Softcodes ™ - All Rights Reserved  
     <p>engineeringsoftcodes@mail.com</p>
 
-        <div class="footer-links">
-           <nav>
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="terms-of-service.html">Terms of Service</a>
-            <a href="support.html">Support</a>
-           </nav>
-           <nav>
-            <a href="contact.html">Contact</a>
-            <a href="publishing.html">Publishing</a>
-            <a href="mailto:engineeringsoftcodes@mail.com">E-Mail</a>
-           </nav>
-        </div>
-        
+    <div class="footer-links">
+      <nav>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+        <a href="support.html">Support</a>
+      </nav>
+      <nav>
+        <a href="contact.html">Contact</a>
+        <a href="publishing.html">Publishing</a>
+        <a href="mailto:engineeringsoftcodes@mail.com">E-Mail</a>
+      </nav>
+    </div>
+
     <div class="social-media">
-        <a href="https://www.tiktok.com/@engineering_softcodes?_t=8iTY3uuw5VR&_r=1" target="_blank">
+       <a href="https://www.tiktok.com/@engineering_softcodes?_t=8iTY3uuw5VR&_r=1" target="_blank">
             <img src="https://ucarecdn.com/cee5ccbe-c839-4b32-87c7-faf78f37c276/tiktok_white_icon.png" alt="TikTok" width="35" height="35">
         </a>
         <a href="https://youtube.com/@Engineering__Softcodes?si=YD1H9UuYY4gPaaIc" target="_blank">
@@ -235,10 +216,7 @@
         </a>
         <a href="https://www.taptap.io/developer/33648997" target="_blank">
             <img src="https://ucarecdn.com/4d1484ed-8bb2-4399-9dc6-ae5d21a0e9be/taptap_white_icon.png" alt="TapTap" width="40" height="40">
-        </a>
     </div>
-</footer>
-    
-    </script>
+  </footer>
 </body>
 </html>
