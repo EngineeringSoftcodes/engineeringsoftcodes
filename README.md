@@ -1,16 +1,9 @@
-## Hi there 👋
+Trademark Ownership Notice
 
-<!--
-**EngineeringSoftcodes/engineeringsoftcodes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Engineering Softcodes ™ is the official name and trademark of the game development, publishing, and software innovation studio founded by PolandLet'sPlay.
 
-Here are some ideas to get you started:
+Engineering Softcodes ™ represents the ownership of all internal and external projects including but not limited to games, game engines, editing tools, launchers, services, and platforms.
 
-- 🔭 We currently working on Your Mo... (Just Kidding, Chill Bro). 
-- 🌱 We currently don't know how Karlson is still not the most wishlist game on steam.
-- 👯 We looking to collaborate whit all games and studios. 
-- 🤔 We looking for help with Programing because we stupid and we have only fu'+**ing artist. 
-- 💬 Ask us about our games and the dev team and not this README.md file ok? 
-- 📫 How to reach us: on linktr.ee/Engineering_Softcodes or engineeringsoftcodes@mail.com
-- 😄 Pronouns: none, don't ask why XD
-- ⚡ Fun fact: we creative making ideas for new games, but we sucks working on them XD
--->
+All branding, logos, and naming under Engineering Softcodes™ are claimed under common law trademark rights and are protected accordingly.
+
+© 2025 Engineering Softcodes ™. All rights reserved.
